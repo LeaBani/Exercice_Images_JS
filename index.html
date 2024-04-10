@@ -23,11 +23,29 @@ function showImage() {
 
 	if(document.getElementById('1').checked){
 		document.getElementById("first").style.display="Block";
-		console.log("show image");
+		console.log("show image 1");
 	}
 	else{
 		document.getElementById("first").style.display="None";
-		console.log("hide image");
+		console.log("hide image 1");
+	}
+
+	if(document.getElementById('2').checked){
+		document.getElementById("two").style.display="Block";
+		console.log("show image 2");
+	}
+	else{
+		document.getElementById("two").style.display="None";
+		console.log("hide image 2");
+	}
+
+	if(document.getElementById('3').checked){
+		document.getElementById("third").style.display="Block";
+		console.log("show image 3");
+	}
+	else{
+		document.getElementById("third").style.display="None";
+		console.log("hide image 3");
 	}
 	
 }
@@ -49,8 +67,8 @@ function showImage() {
 
 
 <p><img style="width:100px; display:None" id="first" src="https://leabani.alwaysdata.net/Image1.jpg"/></p>
-<p><img style="width:100px; display:None" id="2" src="https://leabani.alwaysdata.net/Image2.jpg"/></p>
-<p><img style="width:100px; display:None" id="3" src="https://leabani.alwaysdata.net/Image3.jpg"/></p>
+<p><img style="width:100px; display:None" id="two" src="https://leabani.alwaysdata.net/Image2.jpg"/></p>
+<p><img style="width:100px; display:None" id="third" src="https://leabani.alwaysdata.net/Image3.jpg"/></p>
 	
 	<p>Option<input type="checkbox" id="1"></p>
 	<p>Option<input type="checkbox" id="2"></p>
