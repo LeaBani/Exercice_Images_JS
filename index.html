@@ -22,11 +22,11 @@ function controler(){
 function showImage() {
 
 	if(document.getElementById('1').checked){
-		document.getElementById("1").style.display="None";
+		document.getElementById("first").style.display="None";
 		console.log("hide image");
 	}
 	else{
-		document.getElementById("1").style.display="Block";
+		document.getElementById("first").style.display="Block";
 		console.log("show image");
 	}
 	
@@ -48,7 +48,7 @@ function showImage() {
 <button onclick="controler()">Check</button>
 
 
-<p><img style="width:100px; display:None" id="1" src="https://leabani.alwaysdata.net/Image1.jpg"/></p>
+<p><img style="width:100px; display:None" id="first" src="https://leabani.alwaysdata.net/Image1.jpg"/></p>
 <p><img style="width:100px; display:None" id="2" src="https://leabani.alwaysdata.net/Image2.jpg"/></p>
 <p><img style="width:100px; display:None" id="3" src="https://leabani.alwaysdata.net/Image3.jpg"/></p>
 	
