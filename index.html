@@ -19,8 +19,16 @@ function controler(){
 }
 
 function showImage() {
-	document.getElementById("1").style.display="Block";
-	console.log("show image");
+
+	if(document.getElementById('1').checked){
+		document.getElementById("1").style.display="Block";
+		console.log("show image");
+	}
+	else{
+		document.getElementById("1").style.display="None";
+		console.log("hide image");
+	}
+	
 }
 
 </script>
@@ -39,9 +47,9 @@ function showImage() {
 <button onclick="controler()">Check</button>
 
 
-<img id="1" src="https://leabani.alwaysdata.net/Image1.jpg"/>
-<img id="2" src="https://leabani.alwaysdata.net/Image2.jpg"/>
-<img id="3" src="https://leabani.alwaysdata.net/Image3.jpg"/>
+<img style="width:100px" id="1" src="https://leabani.alwaysdata.net/Image1.jpg"/>
+<img style="width:100px" id="2" src="https://leabani.alwaysdata.net/Image2.jpg"/>
+<img style="width:100px" id="3" src="https://leabani.alwaysdata.net/Image3.jpg"/>
 	
 	<p>Option<input type="checkbox" id="1"></p>
 	<p>Option<input type="checkbox" id="2"></p>
