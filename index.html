@@ -18,6 +18,10 @@ function controler(){
 	else{alert("Bouton option NON coché");}		
 }
 
+function showImage() {
+	document.getElementById("1").style.display="Block";
+}
+
 </script>
 </head>
 <body>
@@ -33,6 +37,15 @@ function controler(){
 <p>Option<input type="checkbox" id="Control"></p>
 <button onclick="controler()">Check</button>
 
+
+<img id="1" href="https://leabani.alwaysdata.net/Image1.jpg">
+<img id="2" href="https://leabani.alwaysdata.net/Image2.jpg">
+<img id="3" href="https://leabani.alwaysdata.net/Image3.jpg">
+	
+	<p>Option<input type="checkbox" id="1"></p>
+	<p>Option<input type="checkbox" id="2"></p>
+	<p>Option<input type="checkbox" id="3"></p>
+<button onclick="showImage()">Check</button>
 
 </body>
 </html>
