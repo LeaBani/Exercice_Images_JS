@@ -2,22 +2,22 @@
 <head>
 <script>
 
-function affichage(){
-	alert("Tout es OK !");
-}
-function cacher(){
-	document.getElementById('DuTexte').style.display="None";
-}
-function presenter(){
-	document.getElementById('DuTexte').style.display="Block";
-}
+// function affichage(){
+// 	alert("Tout es OK !");
+// }
+// function cacher(){
+// 	document.getElementById('DuTexte').style.display="None";
+// }
+// function presenter(){
+// 	document.getElementById('DuTexte').style.display="Block";
+// }
 
-function controler(){
-	if(document.getElementById('Control').checked){
-			alert("Bouton option coché");
-		}
-	else{alert("Bouton option NON coché");}		
-}
+// function controler(){
+// 	if(document.getElementById('Control').checked){
+// 			alert("Bouton option coché");
+// 		}
+// 	else{alert("Bouton option NON coché");}		
+// }
 
 function showImage() {
 
@@ -53,7 +53,8 @@ function showImage() {
 </script>
 </head>
 <body>
-<h1>Mes outils</h1>
+
+<!-- <h1>Mes outils</h1>
 <hr/>
 <h2>Boite de dialogue</h2>
 <button onclick="affichage()">Afficherr</button>
@@ -63,16 +64,16 @@ function showImage() {
 <button onclick="cacher()">Cacher</button>
 <hr/>
 <p>Option<input type="checkbox" id="Control"></p>
-<button onclick="controler()">Check</button>
+<button onclick="controler()">Check</button> -->
 
 
 <p><img style="width:100px; display:None" id="first" src="https://leabani.alwaysdata.net/Image1.jpg"/></p>
 <p><img style="width:100px; display:None" id="two" src="https://leabani.alwaysdata.net/Image2.jpg"/></p>
 <p><img style="width:100px; display:None" id="third" src="https://leabani.alwaysdata.net/Image3.jpg"/></p>
 	
-	<p>Option<input type="checkbox" id="1"></p>
-	<p>Option<input type="checkbox" id="2"></p>
-	<p>Option<input type="checkbox" id="3"></p>
+	<p>Image 1<input type="checkbox" id="1"></p>
+	<p>Image 2<input type="checkbox" id="2"></p>
+	<p>Image 3<input type="checkbox" id="3"></p>
 <button onclick="showImage()">Check</button>
 
 </body>
